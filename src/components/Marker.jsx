@@ -337,7 +337,7 @@ export class Marker extends React.PureComponent {
 
   render() {
     const { children } = this.props
-    return <div>{children}</div>
+    return <React.Fragment>{children}</React.Fragment>
   }
 
   /**
